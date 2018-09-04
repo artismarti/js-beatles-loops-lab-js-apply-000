@@ -1,6 +1,5 @@
 function theBeatlesPlay(musicians, instruments) {
   const lineup = []
-  var foo = ""
   for(var i=0; i<musicians.length; i++) {
     lineup.push(`${musicians[i]} plays ${instruments[i]}`)
   }
